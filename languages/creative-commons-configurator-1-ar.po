@@ -1,0 +1,603 @@
+#  POT (Portable Object Template)
+# 
+#  This file is part of the Creative-Commons-Configurator plugin for WordPress.
+# 
+#  http://www.g-loaded.eu/2006/01/14/creative-commons-configurator-wordpress-plugin/
+# 
+#  Copyright (C) 2006-2013 George Notaras <gnot@g-loaded.eu>
+# 
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+# 
+# 
+# Translators:
+# Bennour Ziad <oxzizo@yahoo.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative-Commons-Configurator translations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-31 05:31+0300\n"
+"PO-Revision-Date: 2016-03-31 02:38+0000\n"
+"Last-Translator: George Notaras <gnot@g-loaded.eu>\n"
+"Language-Team: Arabic (http://www.transifex.com/codetrax/cc-configurator/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: cc-configurator.php:69
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: bccl-settings.php:200
+msgid "Creative-Commons-Configurator options saved"
+msgstr "تم تخزين خيارات مهيئ رخصة المشاع الإبداعي"
+
+#: bccl-settings.php:217
+msgid "Creative-Commons-Configurator options were reset to defaults"
+msgstr "تم إعادة ضبط مهيئ رخصة المشاع الإبداعي الى الخيارات الافتراضية"
+
+#: bccl-admin-panel.php:27
+msgid "Creative Commons Configurator"
+msgstr "مهيئ رخصة المشاع الإبداعي"
+
+#: bccl-admin-panel.php:28
+msgid ""
+"Helps you publish your content under the terms of Creative Commons and other"
+" licenses."
+msgstr "يساعدك على نشر المحتوى الخاص بك وفقا لأحكام المشاع الإبداعي وتراخيص أخرى."
+
+#: bccl-admin-panel.php:51 bccl-admin-panel.php:117
+msgid "License Settings"
+msgstr "إعدادات الرخصة"
+
+#: bccl-admin-panel.php:52 bccl-admin-panel.php:534 bccl-admin-panel.php:635
+msgid "License"
+msgstr "الرخصة"
+
+#: bccl-admin-panel.php:86
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك صلاحيات كافية لدخول هذه الصفحة."
+
+#: bccl-admin-panel.php:119
+msgid ""
+"Welcome to the administration panel of the Creative-Commons-Configurator "
+"plugin for WordPress."
+msgstr "أهلا بك في لوحة إدارة البرنامج المساعد لمهيئ رخصة المشاع الابداعي لWordPress."
+
+#: bccl-admin-panel.php:124
+msgid "Message from the author"
+msgstr "رسالة من المؤلف"
+
+#: bccl-admin-panel.php:132
+msgid "This message can be deactivated in the settings below."
+msgstr "يمكن تعطيل هذه الرسالة في الإعدادات أدناه."
+
+#: bccl-admin-panel.php:136
+msgid ""
+"In this screen you can select a default license for all your content and "
+"customize where and how the generated licensing information is embedded."
+msgstr "في هذه الشاشة يمكنك تحديد الترخيص الإفتراضي لكل المحتوى الخاص بك وتخصيص مكان وكيفية تضمين معلومات الترخيص الذي تم إنشاؤه."
+
+#: bccl-admin-panel.php:140
+msgid "License your content"
+msgstr "ترخيص المحتوى الخاص بك"
+
+#: bccl-admin-panel.php:141
+msgid ""
+"In this section you can select the default license that is used for all "
+"content for which custom licensing information has not been set."
+msgstr "في هذا القسم يمكنك اختيار الترخيص الافتراضي الذي سيتم استخدامه لكافة المحتويات التي لم تضبط لها معلومات الترخيص."
+
+#: bccl-admin-panel.php:147 bccl-admin-panel.php:150
+msgid "Default License"
+msgstr "الرخصة الافتراضية"
+
+#: bccl-admin-panel.php:154
+msgid ""
+"Select a default license for all your content. The license can be customized"
+" on a per post basis in the <em>License</em> box in the post editing screen."
+" Further customization is possible programmatically through the available "
+"filters. For instance, it is possible to customize the license on a per "
+"taxonomy, author, post type basis, set a different default license for "
+"specific post types or limit the license choices in the <em>License</em> box"
+" for specific authors. The possibilities are unlimited. For more information"
+" about using the available filters please check the <a "
+"href=\"https://wordpress.org/plugins/creative-commons-"
+"configurator-1/\">plugin description page</a> at WordPress.org."
+msgstr "تعيين الترخيص الافتراضي لكافة المحتويات الخاصة بك. يمكن ضبط الرخصة عند كل مشاركة في مربع <em>الرخصة</em> في شاشة تحريرالمنشور. يمكن برمجة مزيد من التخصيص عبر المرشحات المتاحة. على سبيل المثال، من الممكن تعيين الترخيص على أساس التصنيف، المؤلف، نوع المنشور، تعيين رخصة افتراضية مختلفة لأنواع محددة من المنشورات أو تحديد خيارات مربع مربع <em>الرخصة</em> لبعض المؤلفين. الاحتمالات غير محدودة. لمزيد من المعلومات حول استخدام المرشحات المتاحة يرجى مراجعة <ahref=\"https://wordpress.org/plugins/creative-commons-configurator-1/\"> وشرح البرنامج المساعد </A> على الصفحة WordPress.org."
+
+#: bccl-admin-panel.php:164
+msgid "Set where license information is added"
+msgstr "تعيين مكان إضافة معلومات الترخيص"
+
+#: bccl-admin-panel.php:165
+msgid ""
+"In this section you can configure which parts of the web site licensing "
+"information is added to."
+msgstr "في هذا القسم يمكنك تهيئة أي أجزاء من معلومات الترخيص لتضاف إلى موقع على شبكة الإنترنت."
+
+#: bccl-admin-panel.php:171 bccl-admin-panel.php:174
+msgid "Syndicated Content"
+msgstr "محتوى مشترك"
+
+#: bccl-admin-panel.php:177
+msgid "Include license information in the blog feeds. (<em>Recommended</em>)"
+msgstr "إدراج معلومات الترخيص في أخبار المدونة. (<em>موصى به</em>)"
+
+#: bccl-admin-panel.php:185
+msgid "HTML Head"
+msgstr "عنوان HTML"
+
+#: bccl-admin-panel.php:188
+msgid "Page Head HTML"
+msgstr "عنوان صفحة HTML"
+
+#: bccl-admin-panel.php:191
+msgid ""
+"Include license information in the page's HTML head. This will not be "
+"visible to human visitors, but search engine bots will be able to read it. "
+"Note that the insertion of license information in the HTML head is done in "
+"relation to the content types (posts, pages or attachment pages) on which "
+"the license text block is displayed (see the <em>text block</em> settings "
+"below). (<em>Recommended</em>)"
+msgstr "إدراج معلومات الترخيص في عنوان صفحة HTML. هذه لن تكون مرئية للزوار، ولكن لجعل محركات البحث قادرةً على قراءتها. تنويه بأن إدخال معلومات الترخيص في عنوان HTML يتم حسب نوع المحتوى (مشاركات، صفحات أو مرفقات) المعروض في مربع كتلة نص الترخيص (يرجى مراجعة إعدادات <em> مربع النص </em> أدناه). (<em> الموصى به </em>)"
+
+#: bccl-admin-panel.php:199 bccl-admin-panel.php:202
+msgid "Text Block"
+msgstr "مربع النص"
+
+#: bccl-admin-panel.php:204
+msgid ""
+"By enabling the following options, a small block of text, which contains "
+"links to the author, the work and the used license, is appended to the "
+"published content."
+msgstr "من خلال تفعيل الخيارات التالية، سيتم إلحاق مربع نص صغير إلى المحتوى المنشور، يحتوي على روابط للمؤلف وللعمل والرخصة المستخدمة."
+
+#: bccl-admin-panel.php:208
+msgid ""
+"Posts: Add the text block with license information under the published posts"
+" and custom post types. (<em>Recommended</em>)"
+msgstr "المشاركات: إضافة مربع النص مع معلومات الترخيص تحت المشاركات المنشورة والمخصصة. (<em>موصى به</em>)"
+
+#: bccl-admin-panel.php:214
+msgid ""
+"Pages: Add the text block with license information under the published "
+"pages."
+msgstr "الصفحات: إضافة مربع النص مع معلومات الترخيص تحت الصفحات المنشورة."
+
+#: bccl-admin-panel.php:220
+msgid ""
+"Attachments: Add the text block with license information under the attached "
+"content in attachment pages."
+msgstr "المرفقات: إضافة مربع النص مع معلومات الترخيص تحت المحتوى المرفق في صفحات المرفقات."
+
+#: bccl-admin-panel.php:220
+msgid "Recommended"
+msgstr "موصى به"
+
+#: bccl-admin-panel.php:229 bccl-admin-panel.php:232
+msgid "License Image"
+msgstr "صورة الرخصة"
+
+#: bccl-admin-panel.php:236
+msgid ""
+"By enabling this option, the license image is also included in the license "
+"text block."
+msgstr "من خلال تفعيل هذا الخيار، سيتم تضمين صورة الرخصة أيضا في مربع النص."
+
+#: bccl-admin-panel.php:242
+msgid ""
+"If license images have been enabled above, use compact license images if "
+"available."
+msgstr "إذا تم تمكين صور الرخصة أعلاه، يرجى استخدام صور الرخصة المدمجة إذا  توفرت."
+
+#: bccl-admin-panel.php:251
+msgid "Separate Media License"
+msgstr ""
+
+#: bccl-admin-panel.php:254
+msgid "Individual Media License"
+msgstr ""
+
+#: bccl-admin-panel.php:256
+msgid ""
+"This option affects the way licensing information is added to media which "
+"appear inside your content. By default, the plugin assumes that all media "
+"within the content are released under the same license as the text. Many "
+"times this is not the case. By enabling the following option, the plugin is "
+"instructed to generate separate license metadata for each of those images, "
+"videos or audios files."
+msgstr ""
+
+#: bccl-admin-panel.php:261
+msgid "Generate separate licensing information for media within the content."
+msgstr ""
+
+#: bccl-admin-panel.php:261
+msgid "Experimental"
+msgstr ""
+
+#: bccl-admin-panel.php:265
+msgid ""
+"This option is mainly useful in case you republish content and media created"
+" by third parties. It can also be useful for the proper indexing of your "
+"media in case the indexing service requires separate licensing metadata for "
+"the media that exist in your content."
+msgstr ""
+
+#: bccl-admin-panel.php:268
+msgid ""
+"Please note that, after enabling this feature, some minor customization of "
+"your theme's CSS might be required, so that the visible licensing "
+"information is displayed correctly. Due to the huge variety of theme designs"
+" and concepts, it is technically impossible for the plugin to do this "
+"automatically."
+msgstr ""
+
+#: bccl-admin-panel.php:273
+msgid ""
+"Omit human visible licensing information from the captions of <em>featured "
+"images</em>, but still add machine readable metadata."
+msgstr ""
+
+#: bccl-admin-panel.php:279
+msgid ""
+"Omit human visible licensing information from the captions of <em>attached "
+"media</em>, but still add machine readable metadata."
+msgstr ""
+
+#: bccl-admin-panel.php:291
+msgid "Configure the license information generator"
+msgstr "تهيئة منشئ معلومات الترخيص"
+
+#: bccl-admin-panel.php:292
+msgid ""
+"In this section you can configure how the licensing information is generated"
+" and its level of detail. These settings have an effect only if the text "
+"block containing licensing information has been enabled above for a specific"
+" content type."
+msgstr "هذا القسم يمكنك تهيئة إنشاء ومستوى تفصيل معلومات الترخيص. هذه الإعدادات تظهر فقط إذا تم تفعيل مربع النص الذي يحتوي على معلومات الترخيص لنوع معين من المحتوى."
+
+#: bccl-admin-panel.php:298 bccl-admin-panel.php:301
+msgid "Extended License Text Block"
+msgstr "مربع نص الرخصة مُفَصَّل"
+
+#: bccl-admin-panel.php:305
+msgid ""
+"Include extended information about the published work and its creator. By "
+"enabling this option, hyperlinks to the published content and its "
+"creator/publisher are also included into the license statement inside the "
+"block. This, by being an attribution example itself, will generally help "
+"others to attribute the work to you."
+msgstr "إدراج معلومات مفصلة حول العمل المنشور والمؤلف. عبر تمكين هذا الخيار، يتم أيضا تضمين ارتباطات تشعبية إلى المحتوى المنشور والمؤلف / الناشر في نص بيان الترخيص. وهكذا، من خلال كونها مثالا على النسب، فانها عمومًا تساعد الآخرين على أن نسب العمل إليك."
+
+#: bccl-admin-panel.php:314 bccl-admin-panel.php:317
+msgid "Creator Attribution Name"
+msgstr "اسم النسبة"
+
+#: bccl-admin-panel.php:332
+msgid ""
+"If extended information about the published work has been enabled, then you "
+"can choose which name will indicate the creator of the work. By default, the"
+" blog name is used."
+msgstr "إذا تم إدراج المعلومات الموسعة حول العمل المنشور، يمكنك اختيار الاسم الذي يشير إلى مؤلف العمل. افتراضيا، يتم استخدام اسم المدونة."
+
+#: bccl-admin-panel.php:341 bccl-admin-panel.php:344
+msgid "Additional Permissions"
+msgstr "صلاحيات إضافية"
+
+#: bccl-admin-panel.php:349
+msgid ""
+"If you have added any extra permissions to your license, provide the URL to "
+"the web page that contains them. It is highly recommended to use absolute "
+"URLs."
+msgstr "إذا قمت بإضافة أية صلاحيات إضافية إلى الترخيص الخاص بك، يرجى توفير صفحة الويب التي تحتوي عليها. ينصح بشدة استخدام عناوين كاملة للمواقع."
+
+#: bccl-admin-panel.php:351
+msgid "Example"
+msgstr "مثال"
+
+#: bccl-admin-panel.php:357
+msgid ""
+"Enter the title of the page containing additional permissions. This can be "
+"whatever you like. It will be used as the anchor text of the hyperlink to "
+"the extra permissions page."
+msgstr "أدخل عنوان الصفحة التي تحتوي على صلاحيات إضافية. سيتم استخدامه كنص ارتباط تشعبي إلى صفحة الصلاحيات الإضافية."
+
+#: bccl-admin-panel.php:368
+msgid "Style of the license text block"
+msgstr "أنماط مربع نص الرخصة"
+
+#: bccl-admin-panel.php:369
+msgid ""
+"In this section you can configure the looks of the text block that contains "
+"the licensing information. These settings have an effect only if the text "
+"block containing licensing information has been enabled above for a specific"
+" content type."
+msgstr "في هذا القسم بامكانك تعيين مظهر مربع النص الذي يحتوي على معلومات الترخيص. هذه الإعدادات تظهر فقط إذا تم تفعيل مربع النص الذي يحتوي على معلومات الترخيص لنوع معين من المحتوى."
+
+#: bccl-admin-panel.php:375 bccl-admin-panel.php:378
+msgid "Colors of the text block"
+msgstr "ألوان مربع النص"
+
+#: bccl-admin-panel.php:382
+msgid "Foreground color for text including hyperlinks."
+msgstr "لون طليعة النص بما في ذلك الارتباطات التشعبية."
+
+#: bccl-admin-panel.php:389
+msgid "Background color of the license block."
+msgstr "لون خلفية مربع نص الرخصة."
+
+#: bccl-admin-panel.php:396
+msgid "Color of the border of the license block."
+msgstr "لون حواف مربع نص الرخصة."
+
+#: bccl-admin-panel.php:406 bccl-admin-panel.php:409
+msgid "Disable internal style"
+msgstr "تعطيل النمط الداخلي"
+
+#: bccl-admin-panel.php:413
+msgid ""
+"Disable the internal formatting of the license block. If the internal "
+"formatting is disabled, then the color selections above have no effect any "
+"more. You can still format the license block via your own CSS. The <code>cc-"
+"block</code> and <code>cc-button</code> classes have been reserved for "
+"formatting the license block and the license button respectively."
+msgstr "تعطيل التنسيق الداخلي لمربع نص الترخيص. إذا تم تعطيل التنسيق الداخلي، فإن تعيينات اللون أعلاه لن يكون لها أي تأثير. لا يزال بإمكانك تهيئة مربع الترخيص عبر CSS الخاص بك. فئات الـ  <code>cc-مربع النص</code> و  <code>cc-الزّر</code> تم حجزها لتهيئة كل من مربع وزر الترخيص على التوالي."
+
+#: bccl-admin-panel.php:424
+msgid "Miscellaneous"
+msgstr "متنوعات"
+
+#: bccl-admin-panel.php:430 bccl-admin-panel.php:433
+msgid "Donations"
+msgstr "تبرعات"
+
+#: bccl-admin-panel.php:436
+#, php-format
+msgid ""
+"By checking this box, the <em>message from the author</em> above goes away. "
+"Thanks for <a href=\"%s\">donating</a>!"
+msgstr "بتفعيل هذه الخانة ستختفي ال</em> رسالة من المؤلف<em>. شكرًا على <a href=\"%s\">تبرعاتك</a>! "
+
+#: bccl-admin-panel.php:453
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: bccl-admin-panel.php:457
+msgid "Reset to defaults"
+msgstr "إعادة تعيين الإعدادات الافتراضية"
+
+#: bccl-admin-panel.php:487
+msgid "Creative Commons License"
+msgstr "رخصة المشاع الإبداعي"
+
+#: bccl-admin-panel.php:488
+msgid "Licensing information"
+msgstr "معلومات الترخيص"
+
+#: bccl-admin-panel.php:546
+msgid "Title:"
+msgstr "العنوان:"
+
+#: bccl-admin-panel.php:550
+msgid "Display in front page and archives"
+msgstr "العرض في الصفحة الأولى والأرشيف"
+
+#: bccl-admin-panel.php:738
+msgid "License this work"
+msgstr ""
+
+#: bccl-admin-panel.php:740
+msgid ""
+"The default license from the general plugin settings is used in order to "
+"license this work. Please use the following selector to choose a custom "
+"license."
+msgstr ""
+
+#: bccl-admin-panel.php:746
+msgid "Additional terms and conditions"
+msgstr "شروط وأحكام إضافية"
+
+#: bccl-admin-panel.php:748
+msgid ""
+"If you make your work available under terms beyond the scope of the used "
+"license, it is possible to add a link to the page containing these "
+"additional terms and conditions. The following fields override the "
+"respective fields of the general plugin settings."
+msgstr "إذا رغبت بجعل عملك متاحا وفقًا لشروط خارج نطاق الرخصة المستخدمة، بامكانك إضافة رابط لصفحة تحتوي على تلك الأحكام والشروط. الحقول التالية تتجاوز نظيراتها من إعدادات البرنامج المساعد العامة."
+
+#: bccl-admin-panel.php:753
+msgid "URL of the page containing extra permissions."
+msgstr "رابط الصفحة التي تحتوي على صلاحيات إضافية."
+
+#: bccl-admin-panel.php:758
+msgid "Title of the page containing extra permissions."
+msgstr "عنوان الصفحة التي تحتوي على صلاحيات إضافية."
+
+#: bccl-admin-panel.php:764
+msgid "Force creator attribution"
+msgstr ""
+
+#: bccl-admin-panel.php:766
+msgid ""
+"By default, the plugin attributes this work to the current editor. This "
+"section lets you attribute it to another creator. This is useful in case you"
+" republish Creative Commons licensed works made by other creators. For "
+"instance, if you upload another creator's image to your blog's media library"
+" for reuse, it is always a good idea to also fill in these settings so that "
+"the plugin generates proper attribution on the attachment page. Moreover, if"
+" you include such works made by other creators in your posts, you should "
+"also check the <em>Separate Media License</em> option in the <a href"
+"=\"options-general.php?page=cc-configurator-options\">License settings "
+"page</a> in order to instruct the plugin to generate separate licensing "
+"metadata for media files included in your content."
+msgstr ""
+
+#: bccl-admin-panel.php:771
+msgid "URL of the creator's web site."
+msgstr ""
+
+#: bccl-admin-panel.php:776
+msgid "Name of the creator."
+msgstr ""
+
+#: bccl-admin-panel.php:783
+msgid "Source work attributes"
+msgstr "نسب مصدر العمل"
+
+#: bccl-admin-panel.php:785
+msgid ""
+"If this content is a derivative work, here you can enter some attributes of "
+"the source work."
+msgstr "إذا كان هذا المحتوى من عمل مشتق، يمكنك نسب مصدر العمل هنا."
+
+#: bccl-admin-panel.php:787
+msgid "URL and title of the source work"
+msgstr "رابط وعنوان مصدر العمل"
+
+#: bccl-admin-panel.php:790
+msgid "URL of the source work."
+msgstr "رابط مصدر العمل."
+
+#: bccl-admin-panel.php:794
+msgid "Title of the source work."
+msgstr "عنوان مصدر العمل."
+
+#: bccl-admin-panel.php:797
+msgid "URL and title of the creator of the source work"
+msgstr "رابط وعنوان مؤلف مصدر العمل"
+
+#: bccl-admin-panel.php:800
+msgid "URL of the creator of the source work."
+msgstr "رابط لمؤلف مصدر العمل."
+
+#: bccl-admin-panel.php:804
+msgid "Name of the creator of the source work."
+msgstr "اسم مؤلف مصدر العمل."
+
+#: bccl-utils.php:66
+msgid "Blog Name"
+msgstr "اسم المدونة"
+
+#: bccl-utils.php:67
+msgid "First + Last Name"
+msgstr "الاسم الأول + اللقب"
+
+#: bccl-utils.php:68
+msgid "Last + First Name"
+msgstr "اللقب + الاسم الأول"
+
+#: bccl-utils.php:69
+msgid "Nickname"
+msgstr "الاسم المستعار"
+
+#: bccl-utils.php:70
+msgid "Displayed Name"
+msgstr "الاسم المعروض"
+
+#: bccl-licenses.php:19
+msgid "No Licensing Information"
+msgstr "معلومات الترخيص غير موجودة"
+
+#: bccl-licenses.php:28
+#, php-format
+msgid "Creative Commons Attribution %s International License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف %s"
+
+#: bccl-licenses.php:36
+#, php-format
+msgid "Creative Commons Attribution-NoDerivatives %s International License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف - منع الاشتقاق %s"
+
+#: bccl-licenses.php:44
+#, php-format
+msgid "Creative Commons Attribution-ShareAlike %s International License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف - الترخيص بالمثل %s"
+
+#: bccl-licenses.php:52
+#, php-format
+msgid "Creative Commons Attribution-NonCommercial %s International License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف - غير تجاري %s"
+
+#: bccl-licenses.php:60
+#, php-format
+msgid ""
+"Creative Commons Attribution-NonCommercial-NoDerivatives %s International "
+"License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف - غير تجاري - منع الاشتقاق %s"
+
+#: bccl-licenses.php:68
+#, php-format
+msgid ""
+"Creative Commons Attribution-NonCommercial-ShareAlike %s International "
+"License"
+msgstr "رخصة المشاع الإبداعي الدولية نسب المصنف - غير تجاري - الترخيص بالمثل %s"
+
+#: bccl-generators.php:19
+msgid "#work# by #creator# is licensed under a #license#."
+msgstr "#عمل# بواسطة # المؤلف# المرخص لها بموجب #الرخصة#."
+
+#: bccl-generators.php:20
+msgid "This work is licensed under a #license#."
+msgstr "هذا العمل مرخص تحت #الرخصة#."
+
+#: bccl-generators.php:21
+msgid ""
+"Permissions beyond the scope of this license may be available at #page#."
+msgstr "صلاحيات خارج نطاق هذا الترخيص قد تكون متوفرة في #الصفحة#."
+
+#: bccl-generators.php:22
+msgid "(#media_type# by <em>#creator#</em> under #license#)"
+msgstr ""
+
+#: bccl-generators.php:41
+msgid "Copyright &copy; #year# #creator#. All Rights Reserved."
+msgstr "حقوق الطبع والنشر والنسخ؛ #السنة# #المؤلف# . كافة الحقوق محفوظة."
+
+#: bccl-generators.php:42
+msgid "Copyright &copy; #year#. All Rights Reserved."
+msgstr "حقوق الطبع والنشر والنسخ؛ #السنة#. كافة الحقوق محفوظة."
+
+#: bccl-generators.php:43
+msgid "(by <em>#creator#</em> - All Rights Reserved)"
+msgstr ""
+
+#: bccl-generators.php:44
+msgid ""
+"Information about how to reuse or republish this work may be available at "
+"#page#."
+msgstr "معلومات عن كيفية إعادة استخدام أو إعادة نشر هذا العمل قد تكون متوفرة في #الصفحة#"
+
+#: bccl-generators.php:53
+msgid ""
+"To the extent possible under law, #creator# has waived all copyright and "
+"related or neighboring rights to #work#."
+msgstr "بموجب القانون وإلى أقصى حد ممكن، يتنازل #المؤلف# عن حق النشر والتأليف وأي حقوق أخرى متعلقة بـ #العمل#."
+
+#: bccl-generators.php:54
+msgid ""
+"To the extent possible under law, the creator has waived all copyright and "
+"related or neighboring rights to this work."
+msgstr "بموجب القانون وإلى أقصى حد ممكن، يتنازل المؤلف عن حق النشر والتأليف وأي حقوق أخرى متعلقة بهذا العمل."
+
+#: bccl-generators.php:55
+msgid "(by <em>#creator#</em> under #license#)"
+msgstr ""
+
+#: bccl-generators.php:56
+msgid ""
+"Terms and conditions beyond the scope of this waiver may be available at "
+"#page#."
+msgstr "شروط وأحكام خارج نطاق هذا التنازل قد تكون متوفرة في #الصفحة#"
